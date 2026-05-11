@@ -1,0 +1,32 @@
+# Data files
+*.csv
+*.shp
+*.dbf
+*.shx
+*.prj
+*.cpg
+
+# Generated outputs
+output/
+*.png
+*.pptx
+ppt/
+
+# Old notebooks
+01_EDA.ipynb
+01_EDA_backup.ipynb
+
+# Presentation drafts
+*.session_resume_*.md
+presentation_*.md
+presentation_backbone_*.md
+
+# Claude session data
+.claude/
+.claude_memory/
+
+# Python environment
+.venv/
+
+# Build scripts
+build_ppt.py
